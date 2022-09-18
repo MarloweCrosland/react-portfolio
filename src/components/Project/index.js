@@ -19,7 +19,7 @@ export default function Project() {
         </div>
 
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
-            <img src={require('../../assets/project-2/img-1.png')} className='img-thumbnail' alt='Sample' />
+            <img src={require('../../assets/project-2/mountain+background.png')} className='img-thumbnail' alt='Sample' />
         </div>
 
         </div>
