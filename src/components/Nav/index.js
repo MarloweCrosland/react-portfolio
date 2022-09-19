@@ -1,26 +1,42 @@
-import React from "react";
+import React, { useEffect} from "react";
 import Nav from 'react-bootstrap/Nav';
 
-function Navi() {
+function Navi(props) {
+
+
+    // const {
+    //     navitems = [],
+    //     currentNavi,
+    //     setCurrentNavi,
+
+    // } = props;
+
+    // useEffect(() => {
+    //     document.title = currentNavi.name;
+    //   }, [currentNavi]);
+
+
 
     return (
-        <Nav defaultActiveKey="/about-me">
-          <Nav.Item>
-            <Nav.Link href="/about-me">About Me</Nav.Link>
-          </Nav.Item>
+        <nav>
+         <ul className="nav nav-tabs">
+          <li className="nav-item">
+            <a className="nav-link" href="/about-me">About Me</a>
+          </li>
 
-          <Nav.Item>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-          </Nav.Item>
+          <li className="nav-item">
+            <a className="nav-link"href="/portfolio">Portfolio</a>
+          </li>
 
-          <Nav.Item>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav.Item>
+          <li className="nav-item">
+            <a className="nav-link"href="/contact">Contact</a>
+          </li>
 
-          <Nav.Item>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-          </Nav.Item>
-        </Nav>
+          <li className="nav-item">
+            <a className="nav-link"href="/resume">Resume</a>
+          </li>
+         </ul>
+        </nav>
       );
 }
 
