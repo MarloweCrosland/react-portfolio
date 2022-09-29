@@ -6,8 +6,8 @@ import galleryImg2 from './galleryImg2.png';
 
 export default function Project() {
   return (
-    <div class="container">
-        <h1 id="heading">My Projects</h1>
+    <div class="container project-container">
+        <h1 class="heading">My Projects</h1>
     <div className="row">
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
             <h6 id="heading">Camp Firecast</h6>

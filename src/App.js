@@ -4,12 +4,13 @@ import Project from './components/Project';
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 
 function App() {
   //conditional rendering stuff
-  const [pageSelected, setPageSelected] = useState('About');
+  const [pageSelected, setPageSelected] = useState('About Me');
 
   function renderPage (page) {
     if (page === 'About Me') {
@@ -56,6 +57,7 @@ function App() {
           <Resume></Resume> */}
           {renderPage(pageSelected)}
         </div>
+        <Footer></Footer>
       </main>
     </div>
   );

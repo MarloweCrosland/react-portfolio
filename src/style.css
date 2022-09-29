@@ -13,20 +13,21 @@
     max-width: 600px;
   }
 
-  #heading{
+  .heading{
     color:darkolivegreen;
   }
 
   #text-container{
     width: 50%;
     float: right;
-  
+    margin-top: 10vh;
     text-align: center;
   }
 
   #photo-container{
     width: 50%;
     float: left;
+    margin-top: 10vh;
   }
 
   #about-me{
@@ -38,4 +39,36 @@
     width: 80%;
     margin-left: 10%;
     margin-right: 10%
+  }
+
+  .project-container,
+  .project-container div{
+    margin-top: 3vh;
+  }
+
+  .footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+    background-color: rgba(85, 107, 47, 0.396);
+  }
+
+  .footer-icons{
+    float: right;
+    max-width: 50%;
+    display: flex;
+    justify-content: left;
+
+  }
+
+  .footer-icons a {
+    padding: 5px;
+  }
+
+  .footer-text{
+    float: right;
+    width: 50%;
+    padding-bottom: 0px;
+
   }
