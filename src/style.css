@@ -12,3 +12,20 @@
   #myphoto{
     max-width: 600px;
   }
+
+  #text-container{
+    width: 50%;
+    float: right;
+  
+    text-align: center;
+  }
+
+  #photo-container{
+    width: 50%;
+    float: left;
+  }
+
+  #about-me{
+    font-size: 1.5em;
+    padding: 3em;
+  }
