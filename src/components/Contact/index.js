@@ -48,7 +48,7 @@ function handleSubmit(e) {
 
 console.log(formState);
   return (
- <section>
+ <section id="contact-section">
     <h1>Contact Me  </h1>
     <form id ="contact-form">
         <div class="form-group">
