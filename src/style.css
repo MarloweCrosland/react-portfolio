@@ -1,0 +1,14 @@
+
+.navitem{
+    color:darkolivegreen;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .navitem:hover{
+    color: black;
+  }
+
+  #myphoto{
+    max-width: 600px;
+  }

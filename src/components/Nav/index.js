@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Nav } from 'react-bootstrap';
-import './style.css'
+import '../../style.css'
+
 
 function Navi(props) {
 
@@ -9,6 +10,8 @@ function Navi(props) {
       categories = [],
       setCurrentCategory,
       currentCategory,
+      pageSelected,
+      setPageSelected
     } = props;
 
 //changes the tab value to current category
@@ -28,7 +31,7 @@ function Navi(props) {
                 }`} key={category.name}>
               <span className="navitem"
                 onClick={() => {
-                  setCurrentCategory(category)
+                  setPageSelected(category.name)
                 }}
               >
                 {category.name}

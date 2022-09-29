@@ -6,8 +6,25 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 
 
-//lifted up the categories so they are availible to all compontents
+
 function App() {
+  //conditional rendering stuff
+  const [pageSelected, setPageSelected] = useState('About');
+
+  function renderPage (page) {
+    if (page === 'About Me') {
+      return <About></About>
+    } else if (page === 'Projects') {
+      return <Project></Project>
+    } else if ( page === 'Contact') {
+      return <Contact></Contact>
+    } else if ( page === 'Resume') {
+      return <Resume></Resume>
+    }
+  }
+  //-----------------------------------------------------------------
+
+  //lifted up the categories so they are availible to all compontents
   const [categories] = useState([
     {
       name: 'About Me'
@@ -18,6 +35,7 @@ function App() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  //-------------------------------------------------------------------
 
   return (
     <div>
@@ -25,13 +43,18 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
+        pageSelected={pageSelected}
+        setPageSelected={setPageSelected}
       ></Navi>
       <main>
         <div>
-          <About></About>
+          {/* renderPage function is called, takes in pageSelected from nav
+          to conditionally render corresponding component */}
+          {/* <About></About>
           <Project></Project>
           <Contact></Contact>
-          <Resume></Resume>
+          <Resume></Resume> */}
+          {renderPage(pageSelected)}
         </div>
       </main>
     </div>
