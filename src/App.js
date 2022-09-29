@@ -3,31 +3,13 @@ import Navi from './components/Nav';
 import Footer from './components/Footer';
 import Project from './components/Project';
 
+
+//App.js is the center of the application/ wrapper component
 function App() {
-
-  const [navitems] = useState([
-    {
-      name: 'About Me'
-    },
-    {
-      name: 'Portfolio'
-    },
-    {
-      name: 'Contact'
-    },
-    {
-      name: 'Resume'
-    }
-  ]);
-
-  const [currentNavi, setCurrentNavi] = useState(navitems[1]);
 
   return (
     <div>
         <Navi>
-          navitems={navitems}
-          setCurrentNavi={setCurrentNavi}
-          currentNavi={currentNavi}
         </Navi>
 
         <main>

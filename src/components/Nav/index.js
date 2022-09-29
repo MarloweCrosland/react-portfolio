@@ -1,41 +1,40 @@
 import React, { useEffect} from "react";
-import Nav from 'react-bootstrap/Nav';
+import { Image } from 'react-bootstrap';
 
 function Navi(props) {
 
 
-    // const {
-    //     navitems = [],
-    //     currentNavi,
-    //     setCurrentNavi,
+  const navitems = [
+    {
+      name: 'About Me'
+    },
+    {
+      name: 'Portfolio'
+    },
+    {
+      name: 'Contact'
+    },
+    {
+      name: 'Resume'
+    }
+  ];
 
-    // } = props;
 
-    // useEffect(() => {
-    //     document.title = currentNavi.name;
-    //   }, [currentNavi]);
-
-
-
+// map over each of the items and make it an html element
     return (
         <nav>
-         <ul className="nav nav-tabs">
-          <li className="nav-item">
-            <a className="nav-link" href="/about-me">About Me</a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link"href="/portfolio">Portfolio</a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link"href="/contact">Contact</a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link"href="/resume">Resume</a>
-          </li>
-         </ul>
+          <ul className="nav nav-tabs">
+          {navitems.map((item) => (
+        <li
+          className="nav-item"
+          key={item.name}
+        >
+          <span className="nav-link">
+            {item.name}
+          </span>
+        </li>
+      ))}
+       </ul>
         </nav>
       );
 }

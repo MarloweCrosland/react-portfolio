@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'react-bootstrap/Image'
+import { Image } from 'react-bootstrap';
 
 export default function Footer() {
   return (
@@ -19,7 +19,7 @@ export default function Footer() {
   </div>
   <div className="copyright text-center">
     Copyright &copy; 2022 <span>Marlowe Crosland</span>
-  </div>
+  </div> 
   </footer>
   )
 }
