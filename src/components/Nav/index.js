@@ -1,27 +1,24 @@
-import React, { useState } from "react";
-import { Navbar } from "react-bootstrap";
+import React, { useEffect } from "react";
 import { Nav } from 'react-bootstrap';
 import './style.css'
 
-function Navi() {
-const [categories] = useState([
-  {
-    name: 'About Me',
-  },
-  { 
-    name: 'Portfolio'
-  },
-  { 
-    name: 'Contact' 
-  },
-  { 
-    name: 'Resume'
-  }
-]);
-const [currentCategory, setCurrentCategory] = useState(categories[0]);
+function Navi(props) {
+
+//destructure out the props so they are availible for return
+    const {
+      categories = [],
+      setCurrentCategory,
+      currentCategory,
+    } = props;
+
+//changes the tab value to current category
+//fist arg is cb function, second arg directs hook to re render on change
+    useEffect(() => {
+      document.title = currentCategory.name;
+    }, [currentCategory]);
 
 
-// map over each of the items and make it an html element
+//map over each of the items and make it an html element
     return (
         <nav class="nav justify-content-end">
           <ul className="nav">
