@@ -24,6 +24,7 @@ function Navi(props) {
 //map over each of the items and make it an html element
     return (
         <nav class="nav justify-content-end">
+          <h4 class="title-name">Marlowe Crosland |</h4>
           <ul className="nav">
           {categories.map((category) => (
             <li className={`nav-link ${

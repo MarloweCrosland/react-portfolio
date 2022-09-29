@@ -1,4 +1,9 @@
-
+.title-name{
+  margin-top: 1vh;
+  position:absolute;
+  left: 0;
+  padding-left: 3vw;
+}
 .navitem{
     color:darkolivegreen;
     text-decoration: none;
