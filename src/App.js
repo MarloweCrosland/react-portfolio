@@ -9,8 +9,7 @@ function App() {
 
   return (
     <div>
-        <Navi>
-        </Navi>
+        <Navi></Navi>
 
         <main>
           <Project></Project>
