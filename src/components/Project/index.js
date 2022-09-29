@@ -10,35 +10,47 @@ export default function Project() {
         <h1 class="heading">My Projects</h1>
     <div className="row">
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
-            <h6 id="heading">Camp Firecast</h6>
-            <img src={galleryImg1} className='img-thumbnail' alt='Project 1 thumbnail' />
+            <a className="links" href='https://www.w3schools.com'>
+                <h6 id="heading">Camp Firecast</h6>
+                <img src={galleryImg1} className='img-thumbnail' alt='project 3 thumbnail' />
+            </a>
+
             
         </div>
 
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
-        <h6 id="heading">Camp Firecast</h6>
-            <img src={galleryImg2} className='img-thumbnail' alt='project 2 thumbnail' />
+            <a className="links" href='https://www.w3schools.com'>
+                <h6 id="heading">Camp Firecast</h6>
+                <img src={galleryImg2} className='img-thumbnail' alt='project 2 thumbnail' />
+            </a>
         </div>
 
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
-            <h6 id="heading">Camp Firecast</h6>
-            <img src={galleryImg1} className='img-thumbnail' alt='project 3 thumbnail' />
-            
+            <a className="links" href='https://www.w3schools.com'>
+                <h6 id="heading">Camp Firecast</h6>
+                <img src={galleryImg1} className='img-thumbnail' alt='project 3 thumbnail' />
+            </a>
         </div>
 
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
-            <img src={galleryImg2} className='img-thumbnail' alt='project 4 thumbnail' />
-            <h6 id="heading">Camp Firecast</h6>
+            <a className="links" href='https://www.w3schools.com'>
+                <img src={galleryImg2} className='img-thumbnail' alt='project 4 thumbnail' />
+                <h6 id="heading">Camp Firecast</h6>
+            </a>
         </div>
 
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
-            <img src={galleryImg1} className='img-thumbnail' alt='project 3 thumbnail' />
-            <h6 id="heading">Camp Firecast</h6>
+            <a className="links" href='https://www.w3schools.com'>
+                <img src={galleryImg1} className='img-thumbnail' alt='project 3 thumbnail' />
+                <h6 id="heading">Camp Firecast</h6>
+            </a>
         </div>
 
         <div className='gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe'>
-            <img src={galleryImg2} className='img-thumbnail' alt='project 4 thumbnail' />
-            <h6 id="heading">Camp Firecast</h6>
+            <a className="links" href='https://www.w3schools.com'>
+                <img src={galleryImg2} className='img-thumbnail' alt='project 4 thumbnail' />
+                <h6 id="heading">Camp Firecast</h6>
+            </a>
         </div>
 
         </div>
