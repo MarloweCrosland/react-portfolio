@@ -49,7 +49,8 @@ function handleSubmit(e) {
 console.log(formState);
   return (
  <section id="contact-section">
-    <h1 className="heading">Contact Me  </h1>
+     <br></br>
+    <h1 className="heading font-1">Contact Me  </h1>
     <form id ="contact-form">
         <div class="form-group">
             <label htmlFor="name-input">Name:</label>
@@ -69,10 +70,10 @@ console.log(formState);
         {/* if error message, display error here */}
         {errorMessage && (
             <div>
-                <p className="error-text">{errorMessage}</p>
+                <p className="error-text font-1">{errorMessage}</p>
             </div>
         )}
-
+    <br></br>
         <button type="submit" onSubmit={handleSubmit} class="btn btn-dark">Submit</button>
     </form>
  </section>
