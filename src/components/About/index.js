@@ -6,7 +6,7 @@ function About() {
   return (
     <section>
         <div id="text-container">
-            <h1 className="heading font-1">Who am I?</h1>
+            <h1 className="heading font-1">Marlowe Crosland</h1>
             <p id="about-me" className="font-1">
             Thank you for viewing my portfolio! I'm Marlowe, a passionate and driven tech new-comer, highly motivated to never stop learning. 
             I have a knack for communicating effectively and thoughtfully with others. My career goals include helping a team to build something 
