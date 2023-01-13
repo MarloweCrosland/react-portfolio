@@ -29,17 +29,7 @@
     text-align: center;
   }
 
-  #photo-container{
-    width: 50%;
-    float: left;
-    margin-top: 30vh;
-    margin-left: 10vw;
-  }
 
-  #about-me{
-    font-size: 3vw;
-    padding: 3em;
-  }
 
   #contact-section{
     width: 80%;

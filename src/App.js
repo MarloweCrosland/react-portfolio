@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navi from './components/Nav';
 import Project from './components/Project';
-import About from './components/About';
+import About from './components/About/About.js';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';

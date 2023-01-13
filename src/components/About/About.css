@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+}
+
+.about-text{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 20px;
+    background: rgba(154, 204, 250, 0.358);
+}
+
+.about p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#photo-container {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 20px;
+    background: rgba(154, 204, 250, 0.358);
+}
+
+.portrait {
+ max-width: 50%;
+}
+
+.font-1 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.font-2 {
+  font-family: 'Dancing Script', cursive;
+}
