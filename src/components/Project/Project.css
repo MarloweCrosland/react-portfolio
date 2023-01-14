@@ -1,21 +1,26 @@
-.project-container {
+.project_container {
   margin-top: 3vh;
   flex-direction: column;
+ padding-bottom: 20px;
 }
+
 
 .project {
   text-align: center;
-  margin-top: 20px;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-bottom: 20px;
 }
 
+/* background: rgb(143,199,251);
+background: radial-gradient(circle, rgba(143,199,251,0.5819070904645477) 44%, rgba(154,204,250,0.4547677261613692) 100%);
+border: none; */
 .project_heading {
+  margin-top: 20px;
   font-family: "Ubuntu Condensed", sans-serif;
-  color: darkolivegreen;
+  color: rgb(143, 199, 251);
   text-align: center;
 }
 

@@ -5,15 +5,17 @@
   margin-right: 10px;
   float: right;
   font-size: 1.5rem;
+  color: darkolivegreen
 }
 .navitem {
   color: darkolivegreen;
   text-decoration: none;
   cursor: pointer;
+  padding: 5px;
 }
 
 .navitem:hover {
-  color: black;
+  font-weight: 600;
 }
 
 
