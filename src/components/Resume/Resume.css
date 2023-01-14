@@ -16,3 +16,7 @@ iframe {
 .resume a:hover {
     text-decoration: underline;
 }
+
+.animation {
+  pointer-events: none;
+}

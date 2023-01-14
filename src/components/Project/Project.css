@@ -1,0 +1,5 @@
+.project-container,
+.project-container div{
+  margin-top: 3vh;
+  flex-direction: column;
+}

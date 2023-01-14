@@ -1,18 +1,23 @@
-.about{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.about {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.about-text{
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 5px;
-    max-width: 300px;
-    padding: 20px;
-    background: rgba(154, 204, 250, 0.358);
+.about-text {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  max-width: 300px;
+  padding: 20px;
+  background: rgb(143, 199, 251);
+  background: radial-gradient(
+    circle,
+    rgba(143, 199, 251, 0.5819070904645477) 44%,
+    rgba(154, 204, 250, 0.4547677261613692) 100%
+  );
 }
 
 .about p {
@@ -22,23 +27,28 @@
 }
 
 #photo-container {
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 5px;
-    max-width: 300px;
-    padding: 20px;
-    background: rgba(154, 204, 250, 0.358);
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  max-width: 300px;
+  padding: 20px;
+  background: rgb(143, 199, 251);
+  background: radial-gradient(
+    circle,
+    rgba(143, 199, 251, 0.5819070904645477) 44%,
+    rgba(154, 204, 250, 0.4547677261613692) 100%
+  );
 }
 
 .portrait {
- max-width: 50%;
+  max-width: 50%;
 }
 
 .font-1 {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 .font-2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navi from './components/Nav';
-import Project from './components/Project';
+import Project from './components/Project/Project';
 import About from './components/About/About.js';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
