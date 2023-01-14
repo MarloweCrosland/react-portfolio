@@ -1,5 +1,29 @@
-.project-container,
-.project-container div{
+.project-container{
   margin-top: 3vh;
   flex-direction: column;
+  
+}
+
+.project{
+  text-align: center;
+  margin-top: 20px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+.project_heading{
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: darkolivegreen;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.project_links{
+  text-decoration: none;
+}
+
+.project_links:hover{
+  text-decoration: underline;
 }
