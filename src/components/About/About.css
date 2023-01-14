@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .about {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .about-text {
   margin-top: 20px;
   margin-right: 20px;
@@ -42,6 +50,7 @@
 }
 
 .portrait {
+  object-fit: contain;
   max-width: 50%;
 }
 
