@@ -3,7 +3,7 @@ import Navi from './components/Nav';
 import Project from './components/Project';
 import About from './components/About/About.js';
 import Resume from './components/Resume';
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer';
 
 
