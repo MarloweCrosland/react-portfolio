@@ -19,7 +19,7 @@ background: radial-gradient(circle, rgba(143,199,251,0.5819070904645477) 44%, rg
 border: none; */
 .project_heading {
   margin-top: 20px;
-  font-family: "Ubuntu Condensed", sans-serif;
+font-family: 'Barlow', sans-serif;
   color: rgb(143, 199, 251);
   text-align: center;
 }
@@ -27,7 +27,7 @@ border: none; */
 .project_links {
   margin-left: 20%;
   font-size: 1rem;
-  font-family: "Ubuntu Condensed", sans-serif;
+font-family: 'Barlow', sans-serif;
   text-decoration: none;
 }
 

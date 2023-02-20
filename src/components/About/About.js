@@ -9,14 +9,11 @@ function About() {
         <div className="about-text">
           <h1 className="heading font-1">About Me</h1>
           <p className="about font-1">
-            Thank you for viewing my portfolio! I'm Marlowe, a passionate and
-            driven tech new-comer, highly motivated to never stop learning. I
+          I
             have a knack for communicating effectively and thoughtfully with
-            others. Curently, I am part of the instructional staff at edX's U of
-            W full stack bootcamp, where I help students with assignments and
-            learning the MERN stack. My career goals include helping a team to
-            build something awesome while strengthening my skills and mastering
-            new technologies.
+            others. Curently, I am part of the instructional staff at edx. My
+            career goals include helping a team to build a groundbreaking product while
+            strengthening my skills and mastering new technologies.
           </p>
         </div>
         <div id="photo-container">
@@ -27,6 +24,14 @@ function About() {
             style={{ width: "100%" }}
             alt="cover"
           />
+        </div>
+
+        <div className="technical-skills font-2">
+          <span>TECHNICAL SKILLS </span>
+          <br></br>
+          JavaScript ES6+, CSS, HTML, SQL, NoSQL, Git, GitHub,
+          MongoDB, MySQL, Express, React, Node, NPM, Handlebars, jQuery,
+          Bootstrap, Firebase, Heroku
         </div>
       </div>
     </div>

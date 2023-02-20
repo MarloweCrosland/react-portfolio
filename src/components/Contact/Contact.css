@@ -3,7 +3,7 @@
 }
 .form{
     text-align: right;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
@@ -48,5 +48,5 @@
     border: none;
     cursor: pointer;
     margin-top: 20px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Barlow', sans-serif;
 }

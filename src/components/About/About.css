@@ -8,7 +8,7 @@
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .about {
     align-items: center;
     display: flex;
@@ -26,7 +26,7 @@
   background: rgb(143, 199, 251);
   background: radial-gradient(
     circle,
-    rgba(143, 199, 251, 0.5819070904645477) 44%,
+    rgba(143, 199, 251, 0.27) 44%,
     rgba(154, 204, 250, 0.4547677261613692) 100%
   );
 }
@@ -58,14 +58,33 @@
 }
 
 .font-1 {
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 
 .font-2 {
-  font-family: "Dancing Script", cursive;
+  font-family: 'Barlow', sans-serif;
 }
 
 
 .heading{
+  color: white;
+}
+
+.technical-skills{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  max-width: 300px;
+  padding: 20px;
+  background: rgb(143, 199, 251);
+  background: radial-gradient(
+    circle,
+    rgba(143, 199, 251, 0.5819070904645477) 44%,
+    rgba(154, 204, 250, 0.4547677261613692) 100%
+  );
+}
+
+.technical-skills span {
   color: white;
 }
