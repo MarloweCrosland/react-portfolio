@@ -33,7 +33,7 @@ function Contact() {
           <input placeholder="Your Email" type="email" name="user_email" />
           <label>Message:</label>
           <textarea placeholder="Your Message" name="message" />
-          <button type="submit" value="Send Mes">
+          <button type="submit" value="Send">
             Send
           </button>
         </form>

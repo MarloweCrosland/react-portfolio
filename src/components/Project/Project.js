@@ -6,7 +6,6 @@ import "./Project.css";
 export default function Project() {
   return (
     <div className="project_container">
-      <h1 className="project_heading">My Projects</h1>
       <div className="project">
           <a
             className="project_links"
