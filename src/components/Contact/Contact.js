@@ -25,6 +25,16 @@ function Contact() {
   };
   return (
     <div className="container">
+
+
+<div className="contact-card">
+  
+</div>
+
+
+
+
+
       <div className="form">
         <form id="form" ref={form} onSubmit={sendEmail}>
           <label>Name:</label>
