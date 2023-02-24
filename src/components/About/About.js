@@ -9,9 +9,8 @@ function About() {
         <div className="about-text">
           <h1 className="heading font-1">About Me</h1>
           <p className="about font-1">
-          I
-            have a knack for communicating effectively and thoughtfully with
-            others. Curently, I am part of the instructional staff at edx. My
+          I have a knack for communicating effectively and thoughtfully with
+            others. Curently, I am part of the instructional staff at edx U of W coding bootcamp. My
             career goals include helping a team to build a groundbreaking product while
             strengthening my skills and mastering new technologies.
           </p>
@@ -27,8 +26,7 @@ function About() {
         </div>
 
         <div className="technical-skills font-2">
-          <span>TECHNICAL SKILLS </span>
-          <br></br>
+          <h3>TECHNICAL SKILLS </h3>
           JavaScript ES6+, CSS, HTML, SQL, NoSQL, Git, GitHub,
           MongoDB, MySQL, Express, React, Node, NPM, Handlebars, jQuery,
           Bootstrap, Firebase, Heroku
