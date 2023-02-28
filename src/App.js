@@ -42,7 +42,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   //----------Theme State--------------
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     setTheme((curr) => (curr ==="light" ? "dark" : "light"));

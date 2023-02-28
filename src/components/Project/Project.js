@@ -1,6 +1,7 @@
 import React from "react";
 import galleryImg1 from "./galleryImg1.png";
 import galleryImg2 from "./galleryImg2.jpg";
+import galleryImg3 from "./galleryImg3.png";
 import "./Project.css";
 
 export default function Project() {
@@ -9,13 +10,13 @@ export default function Project() {
       <div className="project">
           <a
             className="project_links"
-            href="https://mwjones2186.github.io/camp-firecast/"
+            href="https://marlowecrosland.github.io/stardaze/"
           >
-            <h6 id="heading">Camp Firecast</h6>
+            <h6 id="heading">StarDaze</h6>
             <img
-              src={galleryImg1}
+              src={galleryImg3}
               className="img-thumbnail"
-              alt="Camp Firecast thumbnail"
+              alt="StarDaze thumbnail"
             />
           </a>
         </div>
