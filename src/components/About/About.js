@@ -10,7 +10,7 @@ function About() {
           <h1 className="heading font-1">About Me</h1>
           <p className="about font-1">
           I have a knack for communicating effectively and thoughtfully with
-            others. Curently, I am part of the instructional staff at edx U of W coding bootcamp. My
+            others. After graduating my bootcamp, I became a part of the instructional staff at edx U of W full stack program. My
             career goals include helping a team to build a groundbreaking product while
             strengthening my skills and mastering new technologies.
           </p>
