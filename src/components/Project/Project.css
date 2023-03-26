@@ -37,3 +37,18 @@ border: none; */
 .project_links:hover {
   text-decoration: underline;
 }
+
+
+.role-button{
+  border-radius: 5px !important;
+  font-family: 'Barlow', sans-serif !important;
+  margin: 5px !important;
+  background-color: white !important;
+  color: black !important;
+  border: solid 1px #393939 !important;
+}
+
+.role-button:hover{
+  background-color: #222c2b7b !important;
+}
+
