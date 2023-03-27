@@ -20,7 +20,6 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Project modal</h4>
         <p>
           conditionally render information about my role here
         </p>
