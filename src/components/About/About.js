@@ -9,10 +9,9 @@ function About() {
         <div className="about-text">
           <h1 className="heading font-1">About Me</h1>
           <p className="about font-1">
-          I have a knack for communicating effectively and thoughtfully with
-            others. After graduating my bootcamp, I became a part of the instructional staff at edx U of W full stack program. My
+          After graduating my bootcamp through University of Oregon, I became a teaching assistant at edx full stack program. My
             career goals include helping a team to build a groundbreaking product while
-            strengthening my skills and mastering new technologies.
+            strengthening my skills and mastering new technologies. Front-end design and development are my focus, but I am familiar with back-end and can build a full stack application as well.
           </p>
         </div>
         <div id="photo-container">
