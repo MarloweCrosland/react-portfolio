@@ -1,8 +1,9 @@
 
 
 .about {
-  margin-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
   justify-content: center;
   text-align: center;
   margin-bottom: 30px;
@@ -10,13 +11,16 @@
 
 @media only screen and (max-width: 1000px) {
   .about {
+
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
 .about-text {
+  max-height: fit-content;
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
@@ -38,23 +42,16 @@
 }
 
 #photo-container {
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
   max-width: 300px;
-  padding: 20px;
-  background: rgb(143, 199, 251);
-  background: radial-gradient(
-    circle,
-    rgba(143, 199, 251, 0.5819070904645477) 44%,
-    rgba(154, 204, 250, 0.4547677261613692) 100%
-  );
+  padding-top: 20px;
 }
 
-.portrait {
-  object-fit: contain;
-  max-width: 50%;
+.portrait{
+  padding-top: auto;
+  width: auto;
+  padding-bottom: auto;
 }
 
 .font-1 {
@@ -71,13 +68,15 @@
 }
 
 .technical-skills{
+  margin-left: auto;
+  margin-right: auto;
+  max-height: fit-content;
   margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+  min-width: 50vw;
+  margin-bottom: 10px;
   border-radius: 5px;
   max-width: 300px;
   padding: 20px;
-  background: rgb(143, 199, 251);
   background: radial-gradient(
     circle,
     rgba(143, 199, 251, 0.5819070904645477) 44%,
@@ -86,11 +85,42 @@
 }
 
 .technical-skills h3 {
+  text-align: center;
   margin-bottom: 20px;
   color: white;
 
 }
 
-.technical-skills{
-  margin-bottom: 10px;
+
+.tiles{
+text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-height: max-content;
+  background: rgb(255, 255, 255);
+}
+
+#tiles-div{
+text-align: left;
+display:inline-block;
+background: transparent;
+}
+
+.check{
+  width: 20px;
+ height: 20px;
+  margin-right: 2vw;
+  font-weight: lighter;
+}
+
+.list{
+  display: inline-block;
+  max-width: fit-content;
+border: .5px solid black;
 }
