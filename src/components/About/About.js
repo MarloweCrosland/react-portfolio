@@ -25,12 +25,6 @@ function About() {
         </div>
         </div>
 
-        <div className="technical-skills">
-          <h3 className="heading font-1">What My Programs Include:</h3>
-          <div id="tiles-div" className="tiles font-2">
-            <StringsList />
-          </div>
-        </div>
     </div>
   );
 }

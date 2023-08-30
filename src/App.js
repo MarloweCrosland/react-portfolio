@@ -19,7 +19,7 @@ function App() {
   function renderPage(page) {
     if (page === "About Me") {
       return <About></About>;
-    } else if (page === "Projects") {
+    } else if (page === "Programming") {
       return <Project></Project>;
     } else if (page === "Contact") {
       return <Contact></Contact>;
@@ -34,7 +34,7 @@ function App() {
     {
       name: "About Me",
     },
-    { name: "Projects" },
+    { name: "Programming" },
     { name: "Contact" },
     { name: "Resume" },
   ]);
