@@ -3,7 +3,7 @@ import './About.css'
 import checkMark from './checkmark.png'
 
 function StringsList() {
-  const strings = ['JavaScript ES6+', 'CSS', 'HTML', 'SQL', 'NoSQL', 'Git', 'GitHub', 'MongoDB', 'MySQL', 'Express', 'React', 'Node', 'NPM', 'Handlebars', 'jQuery', 'Bootstrap', 'Firebase', 'Heroku'];
+  const strings = ['Cardio Training', 'Calesthenics', 'Resistance Training', 'Flexibility Movements', 'Macro Calculations', 'Personalized Workouts'];
 
   return (
 
