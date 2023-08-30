@@ -10,12 +10,7 @@ function About() {
         <div className="about-text">
           <h1 className="heading font-1">About Me</h1>
           <p className="about font-1">
-            After graduating my bootcamp through University of Oregon, I became
-            a teaching assistant at edx full stack program. My career goals
-            include helping a team to build a groundbreaking product while
-            strengthening my skills and mastering new technologies. Front-end
-            design and development are my focus, but I am familiar with back-end
-            and can build a full stack application as well.
+test test
           </p>
         </div>
         <div id="photo-container">
