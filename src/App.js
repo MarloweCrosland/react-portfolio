@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navi from "./components/Nav/Nav.js";
 import Project from "./components/Project/Project";
 import About from "./components/About/About.js";
-import Resume from "./components/Resume/Resume";
+import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer.js";
 import './App.css'
@@ -23,8 +23,8 @@ function App() {
       return <Project></Project>;
     } else if (page === "Contact") {
       return <Contact></Contact>;
-    } else if (page === "Resume") {
-      return <Resume></Resume>;
+    } else if (page === "Testimonials") {
+      return <Testimonials></Testimonials>;
     }
   }
   //-----------------------------------------------------------------
@@ -36,7 +36,7 @@ function App() {
     },
     { name: "Programming" },
     { name: "Contact" },
-    { name: "Resume" },
+    { name: "Testimonials" },
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

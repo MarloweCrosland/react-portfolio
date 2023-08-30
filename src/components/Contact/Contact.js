@@ -2,55 +2,16 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 function Contact() {
-  const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_cvtspvh",
-        "template_jckkgga",
-        e.target,
-        "zlbDqG-c6BaJqhqsb"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
   return (
-    <div className="container">
 
-
-<div className="contact-card">
-  
-</div>
-
-
-
-
-
-      <div className="form">
-        <form id="form" ref={form} onSubmit={sendEmail}>
-          <label>Name:</label>
-          <input placeholder="Your Name" type="text" name="user_name" />
-          <label>Email:</label>
-          <input placeholder="Your Email" type="email" name="user_email" />
-          <label>Message:</label>
-          <textarea placeholder="Your Message" name="message" />
-          <br></br>
-          <button type="submit" value="Send">
-            Send
-          </button>
-        </form>
+      <div className="container">
+      <h2 id="resume-link" className="resume">
+        <iframe title="pug" className="animation" src="https://giphy.com/embed/he8ng6mnnlXcETGopJ" width="471" height="480" frameBorder="0" ></iframe>
+            <a href="mailto:marlowe.pt@gmail.com"className='font-1' >Click here to email me</a>
+      </h2>
       </div>
-    </div>
-  );
+    )
 }
 
 export default Contact;
